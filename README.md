@@ -184,6 +184,9 @@ see [data/BITEXT_NOTICE.md](data/BITEXT_NOTICE.md)
 
 ---
 
+> [!NOTE]
+> Generative AI tools were used to assist with code development, documentation, presentation design and generating the 30 synthetic test messages (labelled by hand). The project idea, routing strategy, design decisions and evaluation were directed and reviewed by me.me.
+
 ## Author
 
 **Sama Sultan A Alzahrani** · BSc Artificial Intelligence and Computer Science, University of Birmingham
