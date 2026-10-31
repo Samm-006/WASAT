@@ -15,6 +15,8 @@ and calls AI only when a message actually needs it.
 [![Models](https://img.shields.io/badge/Models-Llama_3.2_3B_·_Llama_3.3_70B-6D4AFF?style=flat-square)](https://openrouter.ai/)
 [![Tests](https://img.shields.io/badge/unit_tests-17_passing-1F8A5B?style=flat-square)](test_wasat.py)
 
+**[Live demo](https://wasat0.streamlit.app/)** · **[Test report](RESULTS.md)**
+
 *Misk × HUMAIN Future AI Builders Hackathon · Challenge 2: Deliver AI with Less Compute*
 
 </div>
