@@ -1,0 +1,1930 @@
+{
+  "source": "Bitext Customer Support dataset (CDLA-Sharing 1.0), held-out sample",
+  "items": [
+    {
+      "message": "where to sign up to your corporate newsletter?",
+      "label": "subscription",
+      "intent": "newsletter_subscription",
+      "id": "B001",
+      "difficulty": "BIL"
+    },
+    {
+      "message": "I need to make a customer reclamation against your business",
+      "label": "feedback",
+      "intent": "complaint",
+      "id": "B002",
+      "difficulty": "BL"
+    },
+    {
+      "message": "i want assistance to cancel purchase {{Order Number}}",
+      "label": "order",
+      "intent": "cancel_order",
+      "id": "B003",
+      "difficulty": "BLQ"
+    },
+    {
+      "message": "I have to talk to customer support, I need help",
+      "label": "contact",
+      "intent": "contact_customer_service",
+      "id": "B004",
+      "difficulty": "BCL"
+    },
+    {
+      "message": "I have to get compensations of money",
+      "label": "refund",
+      "intent": "get_refund",
+      "id": "B005",
+      "difficulty": "BLM"
+    },
+    {
+      "message": "can i see in which situtaions can i request refunds",
+      "label": "refund",
+      "intent": "check_refund_policy",
+      "id": "B006",
+      "difficulty": "BILQZ"
+    },
+    {
+      "message": "I want to create a {{Account Type}} account",
+      "label": "account",
+      "intent": "create_account",
+      "id": "B007",
+      "difficulty": "B"
+    },
+    {
+      "message": "needs help to see at what time customer support available is",
+      "label": "contact",
+      "intent": "contact_customer_service",
+      "id": "B008",
+      "difficulty": "BLQZ"
+    },
+    {
+      "message": "I want to know about receiving your corporate neswletter",
+      "label": "subscription",
+      "intent": "newsletter_subscription",
+      "id": "B009",
+      "difficulty": "BLZ"
+    },
+    {
+      "message": "where could I lodge a consumer claim?",
+      "label": "feedback",
+      "intent": "complaint",
+      "id": "B010",
+      "difficulty": "BILP"
+    },
+    {
+      "message": "I don't know what to do to check when will my article arrive",
+      "label": "delivery",
+      "intent": "delivery_period",
+      "id": "B011",
+      "difficulty": "BL"
+    },
+    {
+      "message": "can uhlep me getting my fucking bill from {{Person Name}}",
+      "label": "invoice",
+      "intent": "get_invoice",
+      "id": "B012",
+      "difficulty": "BILQWZ"
+    },
+    {
+      "message": "what do I have to do to recover my user PIN?",
+      "label": "account",
+      "intent": "recover_password",
+      "id": "B013",
+      "difficulty": "BIL"
+    },
+    {
+      "message": "I do not know how to request a refund of my money",
+      "label": "refund",
+      "intent": "get_refund",
+      "id": "B014",
+      "difficulty": "BEL"
+    },
+    {
+      "message": "want help talking to someone",
+      "label": "contact",
+      "intent": "contact_human_agent",
+      "id": "B015",
+      "difficulty": "BLQ"
+    },
+    {
+      "message": "I want assistance locating bill #12588",
+      "label": "invoice",
+      "intent": "check_invoice",
+      "id": "B016",
+      "difficulty": "BL"
+    },
+    {
+      "message": "is it possible to place an order from {{Delivery Country}}",
+      "label": "delivery",
+      "intent": "delivery_options",
+      "id": "B017",
+      "difficulty": "BIQS"
+    },
+    {
+      "message": "I can't edit my damn shipping address",
+      "label": "shipping",
+      "intent": "change_shipping_address",
+      "id": "B018",
+      "difficulty": "BLW"
+    },
+    {
+      "message": "I don't know how to check my restitution status",
+      "label": "refund",
+      "intent": "track_refund",
+      "id": "B019",
+      "difficulty": "BL"
+    },
+    {
+      "message": "need help changing some articles  of order {{Order Number}}",
+      "label": "order",
+      "intent": "change_order",
+      "id": "B020",
+      "difficulty": "BLMQZ"
+    },
+    {
+      "message": "can you help me receiving a compensation?",
+      "label": "refund",
+      "intent": "get_refund",
+      "id": "B021",
+      "difficulty": "BIL"
+    },
+    {
+      "message": "i do not know what to  do to list ur payment modalities",
+      "label": "payment",
+      "intent": "check_payment_methods",
+      "id": "B022",
+      "difficulty": "BELQZ"
+    },
+    {
+      "message": "i need assistance to talk with someone",
+      "label": "contact",
+      "intent": "contact_human_agent",
+      "id": "B023",
+      "difficulty": "BLQ"
+    },
+    {
+      "message": "ya have newsletter",
+      "label": "subscription",
+      "intent": "newsletter_subscription",
+      "id": "B024",
+      "difficulty": "BILQ"
+    },
+    {
+      "message": "i have an issue modifying the shipping address",
+      "label": "shipping",
+      "intent": "change_shipping_address",
+      "id": "B025",
+      "difficulty": "BLQ"
+    },
+    {
+      "message": "how to see the early termination penalties?",
+      "label": "cancel",
+      "intent": "check_cancellation_fee",
+      "id": "B026",
+      "difficulty": "BILM"
+    },
+    {
+      "message": "wanna change  to the freemium account help me",
+      "label": "account",
+      "intent": "switch_account",
+      "id": "B027",
+      "difficulty": "BCLQZ"
+    },
+    {
+      "message": "my delivery address has changed correct it",
+      "label": "shipping",
+      "intent": "change_shipping_address",
+      "id": "B028",
+      "difficulty": "BCLQ"
+    },
+    {
+      "message": "seeing invoice #85632",
+      "label": "invoice",
+      "intent": "check_invoice",
+      "id": "B029",
+      "difficulty": "BKL"
+    },
+    {
+      "message": "how can I contact a human agent?",
+      "label": "contact",
+      "intent": "contact_human_agent",
+      "id": "B030",
+      "difficulty": "BIL"
+    },
+    {
+      "message": "where do I file a customer claim against your business?",
+      "label": "feedback",
+      "intent": "complaint",
+      "id": "B031",
+      "difficulty": "BIL"
+    },
+    {
+      "message": "locate the bill #12588",
+      "label": "invoice",
+      "intent": "check_invoice",
+      "id": "B032",
+      "difficulty": "BL"
+    },
+    {
+      "message": "I have to talk with customer support, I need help",
+      "label": "contact",
+      "intent": "contact_customer_service",
+      "id": "B033",
+      "difficulty": "BCL"
+    },
+    {
+      "message": "I have troubles modifying my address",
+      "label": "shipping",
+      "intent": "change_shipping_address",
+      "id": "B034",
+      "difficulty": "BLM"
+    },
+    {
+      "message": "can you tell me about a shipping address update?",
+      "label": "shipping",
+      "intent": "change_shipping_address",
+      "id": "B035",
+      "difficulty": "BIL"
+    },
+    {
+      "message": "I need to levae some feedback for a service, how do I do it?",
+      "label": "feedback",
+      "intent": "review",
+      "id": "B036",
+      "difficulty": "BCILZ"
+    },
+    {
+      "message": "I want assistance to enter a new delivery address",
+      "label": "shipping",
+      "intent": "set_up_shipping_address",
+      "id": "B037",
+      "difficulty": "BL"
+    },
+    {
+      "message": "rebate  {{Currency Symbol}}{{Refund Amount}}",
+      "label": "refund",
+      "intent": "get_refund",
+      "id": "B038",
+      "difficulty": "BKLMZ"
+    },
+    {
+      "message": "assistance informing of problems with payment",
+      "label": "payment",
+      "intent": "payment_issue",
+      "id": "B039",
+      "difficulty": "BLM"
+    },
+    {
+      "message": "I need assistance giving a quick look at bill #37777",
+      "label": "invoice",
+      "intent": "check_invoice",
+      "id": "B040",
+      "difficulty": "BL"
+    },
+    {
+      "message": "need assistance to set my secondary delivery address up",
+      "label": "shipping",
+      "intent": "set_up_shipping_address",
+      "id": "B041",
+      "difficulty": "BLQ"
+    },
+    {
+      "message": "i dont know how i could receive compensations",
+      "label": "refund",
+      "intent": "get_refund",
+      "id": "B042",
+      "difficulty": "BLMPQ"
+    },
+    {
+      "message": "assistance checking my bill from {{Person Name}}",
+      "label": "invoice",
+      "intent": "check_invoice",
+      "id": "B043",
+      "difficulty": "BL"
+    },
+    {
+      "message": "show me my restitution status",
+      "label": "refund",
+      "intent": "track_refund",
+      "id": "B044",
+      "difficulty": "BL"
+    },
+    {
+      "message": "is there an address to send a review about ur company",
+      "label": "feedback",
+      "intent": "review",
+      "id": "B045",
+      "difficulty": "BILQ"
+    },
+    {
+      "message": "i dont know what i have to do to buy an article",
+      "label": "order",
+      "intent": "place_order",
+      "id": "B046",
+      "difficulty": "BLQ"
+    },
+    {
+      "message": "modifying gold account",
+      "label": "account",
+      "intent": "edit_account",
+      "id": "B047",
+      "difficulty": "BKL"
+    },
+    {
+      "message": "I need help to purchase several of your item",
+      "label": "order",
+      "intent": "place_order",
+      "id": "B048",
+      "difficulty": "BLM"
+    },
+    {
+      "message": "check invoices from last purchase",
+      "label": "invoice",
+      "intent": "check_invoice",
+      "id": "B049",
+      "difficulty": "BKM"
+    },
+    {
+      "message": "can you help me unsubscribing from the corporate newsletter?",
+      "label": "subscription",
+      "intent": "newsletter_subscription",
+      "id": "B050",
+      "difficulty": "BIL"
+    },
+    {
+      "message": "where can I find information about changing my address?",
+      "label": "shipping",
+      "intent": "change_shipping_address",
+      "id": "B051",
+      "difficulty": "BIL"
+    },
+    {
+      "message": "where can i see the termniation penalty",
+      "label": "cancel",
+      "intent": "check_cancellation_fee",
+      "id": "B052",
+      "difficulty": "BILQZ"
+    },
+    {
+      "message": "I want assistanc to see when my purchase is going to arrive",
+      "label": "delivery",
+      "intent": "delivery_period",
+      "id": "B053",
+      "difficulty": "BLZ"
+    },
+    {
+      "message": "what do I have to do to use the standard account?",
+      "label": "account",
+      "intent": "switch_account",
+      "id": "B054",
+      "difficulty": "BI"
+    },
+    {
+      "message": "help me seeing the early exit fee",
+      "label": "cancel",
+      "intent": "check_cancellation_fee",
+      "id": "B055",
+      "difficulty": "BL"
+    },
+    {
+      "message": "need to change order {{Order Number}} how to do it",
+      "label": "order",
+      "intent": "change_order",
+      "id": "B056",
+      "difficulty": "BCIQ"
+    },
+    {
+      "message": "is it possible to make a complaint against your company?",
+      "label": "feedback",
+      "intent": "complaint",
+      "id": "B057",
+      "difficulty": "BIL"
+    },
+    {
+      "message": "I need to see the available payment modalities",
+      "label": "payment",
+      "intent": "check_payment_methods",
+      "id": "B058",
+      "difficulty": "BL"
+    },
+    {
+      "message": "I do not know how I can speam with customer support",
+      "label": "contact",
+      "intent": "contact_customer_service",
+      "id": "B059",
+      "difficulty": "BELZ"
+    },
+    {
+      "message": "how do I check the current status of my restitution?",
+      "label": "refund",
+      "intent": "track_refund",
+      "id": "B060",
+      "difficulty": "BIL"
+    },
+    {
+      "message": "I need to set up my new shipping address",
+      "label": "shipping",
+      "intent": "set_up_shipping_address",
+      "id": "B061",
+      "difficulty": "BL"
+    },
+    {
+      "message": "is it possible to edit the bloody deliveryaddress",
+      "label": "shipping",
+      "intent": "change_shipping_address",
+      "id": "B062",
+      "difficulty": "BILQWZ"
+    },
+    {
+      "message": "I can't find the cancellation fees, will you help me?",
+      "label": "cancel",
+      "intent": "check_cancellation_fee",
+      "id": "B063",
+      "difficulty": "BCIMP"
+    },
+    {
+      "message": "what do I need to do to file a claim against your business?",
+      "label": "feedback",
+      "intent": "complaint",
+      "id": "B064",
+      "difficulty": "BIL"
+    },
+    {
+      "message": "how do i check the current status of the reimbursement",
+      "label": "refund",
+      "intent": "track_refund",
+      "id": "B065",
+      "difficulty": "BILQ"
+    },
+    {
+      "message": "help me to report errors with payment",
+      "label": "payment",
+      "intent": "payment_issue",
+      "id": "B066",
+      "difficulty": "BLM"
+    },
+    {
+      "message": "I want to check the ETA of the purchase {{Order Number}}",
+      "label": "order",
+      "intent": "track_order",
+      "id": "B067",
+      "difficulty": "BL"
+    },
+    {
+      "message": "I need to make a complaint against your business",
+      "label": "feedback",
+      "intent": "complaint",
+      "id": "B068",
+      "difficulty": "BL"
+    },
+    {
+      "message": "help switching an article of order {{Order Number}}",
+      "label": "order",
+      "intent": "change_order",
+      "id": "B069",
+      "difficulty": "BL"
+    },
+    {
+      "message": "could ya help me to cancel my newsletter suscription",
+      "label": "subscription",
+      "intent": "newsletter_subscription",
+      "id": "B070",
+      "difficulty": "BILPQZ"
+    },
+    {
+      "message": "I want to see what shipping options I can choose, help me",
+      "label": "delivery",
+      "intent": "delivery_options",
+      "id": "B071",
+      "difficulty": "BCLM"
+    },
+    {
+      "message": "I need help subscribing to your corporate newsletter",
+      "label": "subscription",
+      "intent": "newsletter_subscription",
+      "id": "B072",
+      "difficulty": "BL"
+    },
+    {
+      "message": "want help seeing how soon can I expetc my article",
+      "label": "delivery",
+      "intent": "delivery_period",
+      "id": "B073",
+      "difficulty": "BLQZ"
+    },
+    {
+      "message": "ya have a method to send feedback",
+      "label": "feedback",
+      "intent": "review",
+      "id": "B074",
+      "difficulty": "BILQ"
+    },
+    {
+      "message": "want help seeing what delivery options are there",
+      "label": "delivery",
+      "intent": "delivery_options",
+      "id": "B075",
+      "difficulty": "BLMQ"
+    },
+    {
+      "message": "i have a question about opening a premium account",
+      "label": "account",
+      "intent": "create_account",
+      "id": "B076",
+      "difficulty": "BLQ"
+    },
+    {
+      "message": "help me checking in which situations can I ask for refunds",
+      "label": "refund",
+      "intent": "check_refund_policy",
+      "id": "B077",
+      "difficulty": "BL"
+    },
+    {
+      "message": "what do I need to do to notify of a problem with payments?",
+      "label": "payment",
+      "intent": "payment_issue",
+      "id": "B078",
+      "difficulty": "BILM"
+    },
+    {
+      "message": "i have a question about a goddamn shipping address change",
+      "label": "shipping",
+      "intent": "change_shipping_address",
+      "id": "B079",
+      "difficulty": "BQW"
+    },
+    {
+      "message": "could ya help me cancel the {{Account Category}} account",
+      "label": "account",
+      "intent": "delete_account",
+      "id": "B080",
+      "difficulty": "BILPQ"
+    },
+    {
+      "message": "wanna know about the company newsletter subscription",
+      "label": "subscription",
+      "intent": "newsletter_subscription",
+      "id": "B081",
+      "difficulty": "BQ"
+    },
+    {
+      "message": "help to unsubscribe to the company newsletter",
+      "label": "subscription",
+      "intent": "newsletter_subscription",
+      "id": "B082",
+      "difficulty": "BL"
+    },
+    {
+      "message": "I try to check how soon can I expect the purchase",
+      "label": "delivery",
+      "intent": "delivery_period",
+      "id": "B083",
+      "difficulty": "BL"
+    },
+    {
+      "message": "see what hours i can reach customer support",
+      "label": "contact",
+      "intent": "contact_customer_service",
+      "id": "B084",
+      "difficulty": "BLQ"
+    },
+    {
+      "message": "help downloading invoice #37777",
+      "label": "invoice",
+      "intent": "get_invoice",
+      "id": "B085",
+      "difficulty": "BL"
+    },
+    {
+      "message": "switch to  {{Account Category}} account",
+      "label": "account",
+      "intent": "switch_account",
+      "id": "B086",
+      "difficulty": "BKZ"
+    },
+    {
+      "message": "where  do i lodge a consumer claim against ur company",
+      "label": "feedback",
+      "intent": "complaint",
+      "id": "B087",
+      "difficulty": "BILQZ"
+    },
+    {
+      "message": "I would like to cancel the subscription to the newsletter",
+      "label": "subscription",
+      "intent": "newsletter_subscription",
+      "id": "B088",
+      "difficulty": "BLP"
+    },
+    {
+      "message": "i have problems with cancelling purchase {{Order Number}}",
+      "label": "order",
+      "intent": "cancel_order",
+      "id": "B089",
+      "difficulty": "BLMQ"
+    },
+    {
+      "message": "I try to purchase some of  your item",
+      "label": "order",
+      "intent": "place_order",
+      "id": "B090",
+      "difficulty": "BLMZ"
+    },
+    {
+      "message": "I want help to see the termination penalty",
+      "label": "cancel",
+      "intent": "check_cancellation_fee",
+      "id": "B091",
+      "difficulty": "BL"
+    },
+    {
+      "message": "can you tell me what payment options are available?",
+      "label": "payment",
+      "intent": "check_payment_methods",
+      "id": "B092",
+      "difficulty": "BIL"
+    },
+    {
+      "message": "i cant hcat with somebody",
+      "label": "contact",
+      "intent": "contact_human_agent",
+      "id": "B093",
+      "difficulty": "BLQZ"
+    },
+    {
+      "message": "can ya help me using the standard profile",
+      "label": "account",
+      "intent": "switch_account",
+      "id": "B094",
+      "difficulty": "BILQ"
+    },
+    {
+      "message": "help me seeing the current status of my reimbursement",
+      "label": "refund",
+      "intent": "track_refund",
+      "id": "B095",
+      "difficulty": "BL"
+    },
+    {
+      "message": "need to check how soon can i ezpect my package",
+      "label": "delivery",
+      "intent": "delivery_period",
+      "id": "B096",
+      "difficulty": "BLQZ"
+    },
+    {
+      "message": "I'm waiting for a compensation of {{Currency Symbol}}{{Refund Amount}}",
+      "label": "refund",
+      "intent": "track_refund",
+      "id": "B097",
+      "difficulty": "BLQ"
+    },
+    {
+      "message": "show me the withdrawal charges",
+      "label": "cancel",
+      "intent": "check_cancellation_fee",
+      "id": "B098",
+      "difficulty": "BLM"
+    },
+    {
+      "message": "where can i look for bill #00108",
+      "label": "invoice",
+      "intent": "check_invoice",
+      "id": "B099",
+      "difficulty": "BILQ"
+    },
+    {
+      "message": "open {{Account Category}} account for wife",
+      "label": "account",
+      "intent": "create_account",
+      "id": "B100",
+      "difficulty": "BKL"
+    },
+    {
+      "message": "i do not understand anything ya say direct tome someone",
+      "label": "contact",
+      "intent": "contact_human_agent",
+      "id": "B101",
+      "difficulty": "BCELQZ"
+    },
+    {
+      "message": "can you help me see the ETA of the order {{Order Number}}?",
+      "label": "order",
+      "intent": "track_order",
+      "id": "B102",
+      "difficulty": "BIL"
+    },
+    {
+      "message": "get bill fromAnna Freeman",
+      "label": "invoice",
+      "intent": "get_invoice",
+      "id": "B103",
+      "difficulty": "BKLZ"
+    },
+    {
+      "message": "is there a way to submit feedback for your company?",
+      "label": "feedback",
+      "intent": "review",
+      "id": "B104",
+      "difficulty": "BIL"
+    },
+    {
+      "message": "help me lodge a customer claim against your business",
+      "label": "feedback",
+      "intent": "complaint",
+      "id": "B105",
+      "difficulty": "BL"
+    },
+    {
+      "message": "is it possible to see when my product is going to arrive?",
+      "label": "delivery",
+      "intent": "delivery_period",
+      "id": "B106",
+      "difficulty": "BIL"
+    },
+    {
+      "message": "I would like to cancel the subscription to your newsletter",
+      "label": "subscription",
+      "intent": "newsletter_subscription",
+      "id": "B107",
+      "difficulty": "BLP"
+    },
+    {
+      "message": "changing details on {{Account Type}} account",
+      "label": "account",
+      "intent": "edit_account",
+      "id": "B108",
+      "difficulty": "BKLM"
+    },
+    {
+      "message": "can you help me unsubscribing to your corporate newsletter?",
+      "label": "subscription",
+      "intent": "newsletter_subscription",
+      "id": "B109",
+      "difficulty": "BIL"
+    },
+    {
+      "message": "what do i need to do to inform of problems wiht payment",
+      "label": "payment",
+      "intent": "payment_issue",
+      "id": "B110",
+      "difficulty": "BILMQZ"
+    },
+    {
+      "message": "I have got to see the status of my rebate, I need assistance",
+      "label": "refund",
+      "intent": "track_refund",
+      "id": "B111",
+      "difficulty": "BCL"
+    },
+    {
+      "message": "need to inform of issues with payment",
+      "label": "payment",
+      "intent": "payment_issue",
+      "id": "B112",
+      "difficulty": "BLMQ"
+    },
+    {
+      "message": "can uhelp me to reoort a trouble with payments",
+      "label": "payment",
+      "intent": "payment_issue",
+      "id": "B113",
+      "difficulty": "BILMQZ"
+    },
+    {
+      "message": "check options for delivery",
+      "label": "delivery",
+      "intent": "delivery_options",
+      "id": "B114",
+      "difficulty": "BK"
+    },
+    {
+      "message": "I don't know how to set my secondary shipping address up",
+      "label": "shipping",
+      "intent": "set_up_shipping_address",
+      "id": "B115",
+      "difficulty": "BL"
+    },
+    {
+      "message": "i cant unsubscribe to the company newsletter",
+      "label": "subscription",
+      "intent": "newsletter_subscription",
+      "id": "B116",
+      "difficulty": "BLQ"
+    },
+    {
+      "message": "help setting up the secondary shipping address",
+      "label": "shipping",
+      "intent": "set_up_shipping_address",
+      "id": "B117",
+      "difficulty": "BL"
+    },
+    {
+      "message": "is it possible to se the cancellation fee?",
+      "label": "cancel",
+      "intent": "check_cancellation_fee",
+      "id": "B118",
+      "difficulty": "BILZ"
+    },
+    {
+      "message": "report payment problems",
+      "label": "payment",
+      "intent": "payment_issue",
+      "id": "B119",
+      "difficulty": "BKLM"
+    },
+    {
+      "message": "assistance to check hw soon can i expect the order",
+      "label": "delivery",
+      "intent": "delivery_period",
+      "id": "B120",
+      "difficulty": "BLQZ"
+    },
+    {
+      "message": "I want assistance removing my goddamn platinum account",
+      "label": "account",
+      "intent": "delete_account",
+      "id": "B121",
+      "difficulty": "BLW"
+    },
+    {
+      "message": "add some damn products to order {{Order Number}}",
+      "label": "order",
+      "intent": "change_order",
+      "id": "B122",
+      "difficulty": "BLMW"
+    },
+    {
+      "message": "I odn't know how I could speak to customer support",
+      "label": "contact",
+      "intent": "contact_customer_service",
+      "id": "B123",
+      "difficulty": "BLPZ"
+    },
+    {
+      "message": "need assistance to report problems with online payments",
+      "label": "payment",
+      "intent": "payment_issue",
+      "id": "B124",
+      "difficulty": "BLMQ"
+    },
+    {
+      "message": "creating new platinum account",
+      "label": "account",
+      "intent": "create_account",
+      "id": "B125",
+      "difficulty": "BKL"
+    },
+    {
+      "message": "where do i check the withdrawal fees",
+      "label": "cancel",
+      "intent": "check_cancellation_fee",
+      "id": "B126",
+      "difficulty": "BILMQ"
+    },
+    {
+      "message": "where to notify of a trouble with online payments",
+      "label": "payment",
+      "intent": "payment_issue",
+      "id": "B127",
+      "difficulty": "BILMQ"
+    },
+    {
+      "message": "I need to set up another deliverry address",
+      "label": "shipping",
+      "intent": "set_up_shipping_address",
+      "id": "B128",
+      "difficulty": "BLZ"
+    },
+    {
+      "message": "i try to see the withdrawal fees",
+      "label": "cancel",
+      "intent": "check_cancellation_fee",
+      "id": "B129",
+      "difficulty": "BLMQ"
+    },
+    {
+      "message": "I have ordered some article, cancel purchase {{Order Number}}",
+      "label": "order",
+      "intent": "cancel_order",
+      "id": "B130",
+      "difficulty": "BCELV"
+    },
+    {
+      "message": "help me see in what situations can i request my money back",
+      "label": "refund",
+      "intent": "check_refund_policy",
+      "id": "B131",
+      "difficulty": "BLQ"
+    },
+    {
+      "message": "where do I update my delivery address ?",
+      "label": "shipping",
+      "intent": "change_shipping_address",
+      "id": "B132",
+      "difficulty": "BILZ"
+    },
+    {
+      "message": "file customerr claim",
+      "label": "feedback",
+      "intent": "complaint",
+      "id": "B133",
+      "difficulty": "BKLZ"
+    },
+    {
+      "message": "I want help to see the termination charges",
+      "label": "cancel",
+      "intent": "check_cancellation_fee",
+      "id": "B134",
+      "difficulty": "BLM"
+    },
+    {
+      "message": "help to modify my fucking shipping address",
+      "label": "shipping",
+      "intent": "change_shipping_address",
+      "id": "B135",
+      "difficulty": "BLW"
+    },
+    {
+      "message": "need assistance to list ur fucking payment methods",
+      "label": "payment",
+      "intent": "check_payment_methods",
+      "id": "B136",
+      "difficulty": "BLQW"
+    },
+    {
+      "message": "where to check how long it takes for my article to arrive?",
+      "label": "delivery",
+      "intent": "delivery_period",
+      "id": "B137",
+      "difficulty": "BIL"
+    },
+    {
+      "message": "help me canceling the newsletter subscription",
+      "label": "subscription",
+      "intent": "newsletter_subscription",
+      "id": "B138",
+      "difficulty": "BL"
+    },
+    {
+      "message": "need to receive the damn newsletter will uhelp me",
+      "label": "subscription",
+      "intent": "newsletter_subscription",
+      "id": "B139",
+      "difficulty": "BCILPQW"
+    },
+    {
+      "message": "I want helpchecking what hours I can call customer service",
+      "label": "contact",
+      "intent": "contact_customer_service",
+      "id": "B140",
+      "difficulty": "BLZ"
+    },
+    {
+      "message": "I have to see my bill, help me",
+      "label": "invoice",
+      "intent": "check_invoice",
+      "id": "B141",
+      "difficulty": "BCL"
+    },
+    {
+      "message": "tell me about canceling the subscription to the newsletter",
+      "label": "subscription",
+      "intent": "newsletter_subscription",
+      "id": "B142",
+      "difficulty": "BL"
+    },
+    {
+      "message": "i do not know what i need to do to check invoice #12588",
+      "label": "invoice",
+      "intent": "check_invoice",
+      "id": "B143",
+      "difficulty": "BEQ"
+    },
+    {
+      "message": "where to update my shipping address?",
+      "label": "shipping",
+      "intent": "change_shipping_address",
+      "id": "B144",
+      "difficulty": "BIL"
+    },
+    {
+      "message": "how do I check what hours customer service available is?",
+      "label": "contact",
+      "intent": "contact_customer_service",
+      "id": "B145",
+      "difficulty": "BI"
+    },
+    {
+      "message": "i dont know what i need to do to talk to a person",
+      "label": "contact",
+      "intent": "contact_human_agent",
+      "id": "B146",
+      "difficulty": "BLQ"
+    },
+    {
+      "message": "hoe can i check the withdrawal penalties",
+      "label": "cancel",
+      "intent": "check_cancellation_fee",
+      "id": "B147",
+      "difficulty": "BILMQZ"
+    },
+    {
+      "message": "can I see the bloody withdrawal penalties?",
+      "label": "cancel",
+      "intent": "check_cancellation_fee",
+      "id": "B148",
+      "difficulty": "BILMW"
+    },
+    {
+      "message": "I have to inform of errors with payment, I need assistance",
+      "label": "payment",
+      "intent": "payment_issue",
+      "id": "B149",
+      "difficulty": "BCLM"
+    },
+    {
+      "message": "I want to inform of a registration error, how can I do it?",
+      "label": "account",
+      "intent": "registration_problems",
+      "id": "B150",
+      "difficulty": "BCIL"
+    },
+    {
+      "message": "get invoices from {{Person Name}}",
+      "label": "invoice",
+      "intent": "get_invoice",
+      "id": "B151",
+      "difficulty": "BKM"
+    },
+    {
+      "message": "I want help to sign up to your corporate newsletter",
+      "label": "subscription",
+      "intent": "newsletter_subscription",
+      "id": "B152",
+      "difficulty": "BL"
+    },
+    {
+      "message": "assistance to check how long it takes for my item to arrive",
+      "label": "delivery",
+      "intent": "delivery_period",
+      "id": "B153",
+      "difficulty": "BL"
+    },
+    {
+      "message": "i want help seeing in what cases can i ask to be refunded",
+      "label": "refund",
+      "intent": "check_refund_policy",
+      "id": "B154",
+      "difficulty": "BLQ"
+    },
+    {
+      "message": "I need assistance writing a comment for your services",
+      "label": "feedback",
+      "intent": "review",
+      "id": "B155",
+      "difficulty": "BL"
+    },
+    {
+      "message": "I have got to locate order {{Order Number}}",
+      "label": "order",
+      "intent": "track_order",
+      "id": "B156",
+      "difficulty": "BL"
+    },
+    {
+      "message": "need assistance to speak with customer support",
+      "label": "contact",
+      "intent": "contact_customer_service",
+      "id": "B157",
+      "difficulty": "BLQ"
+    },
+    {
+      "message": "I have troubles setting up a new shipping address",
+      "label": "shipping",
+      "intent": "set_up_shipping_address",
+      "id": "B158",
+      "difficulty": "BLM"
+    },
+    {
+      "message": "have problems with canceling order {{Order Number}}",
+      "label": "order",
+      "intent": "cancel_order",
+      "id": "B159",
+      "difficulty": "BMQ"
+    },
+    {
+      "message": "I need assistance to check order {{Order Number}} current status",
+      "label": "order",
+      "intent": "track_order",
+      "id": "B160",
+      "difficulty": "BL"
+    },
+    {
+      "message": "are service charges reimbursable?",
+      "label": "refund",
+      "intent": "check_refund_policy",
+      "id": "B161",
+      "difficulty": "BIL"
+    },
+    {
+      "message": "can you help me to check what shipment methods I have?",
+      "label": "delivery",
+      "intent": "delivery_options",
+      "id": "B162",
+      "difficulty": "BILM"
+    },
+    {
+      "message": "need to receive ur newsletter can ya help me",
+      "label": "subscription",
+      "intent": "newsletter_subscription",
+      "id": "B163",
+      "difficulty": "BCILQ"
+    },
+    {
+      "message": "where to acquire several of your item?",
+      "label": "order",
+      "intent": "place_order",
+      "id": "B164",
+      "difficulty": "BILM"
+    },
+    {
+      "message": "I would like to track my rebate, can you help me?",
+      "label": "refund",
+      "intent": "track_refund",
+      "id": "B165",
+      "difficulty": "BCILP"
+    },
+    {
+      "message": "help to lodge a claim against your organization",
+      "label": "feedback",
+      "intent": "complaint",
+      "id": "B166",
+      "difficulty": "BL"
+    },
+    {
+      "message": "I have not registered yet, assistance to open a pro account",
+      "label": "account",
+      "intent": "create_account",
+      "id": "B167",
+      "difficulty": "BCEL"
+    },
+    {
+      "message": "will you show me how long it takes for the parcel to arrive?",
+      "label": "delivery",
+      "intent": "delivery_period",
+      "id": "B168",
+      "difficulty": "BILP"
+    },
+    {
+      "message": "changing informatiln on {{Account Category}} account",
+      "label": "account",
+      "intent": "edit_account",
+      "id": "B169",
+      "difficulty": "BKLZ"
+    },
+    {
+      "message": "problem with {{Account Type}} account terminations",
+      "label": "account",
+      "intent": "delete_account",
+      "id": "B170",
+      "difficulty": "BLM"
+    },
+    {
+      "message": "i dont know how to request restitutions of my money",
+      "label": "refund",
+      "intent": "get_refund",
+      "id": "B171",
+      "difficulty": "BLMQ"
+    },
+    {
+      "message": "i cannot find anything about the withdrawal fees",
+      "label": "cancel",
+      "intent": "check_cancellation_fee",
+      "id": "B172",
+      "difficulty": "BELMQ"
+    },
+    {
+      "message": "i need help to give a quick look at invoice #00108",
+      "label": "invoice",
+      "intent": "check_invoice",
+      "id": "B173",
+      "difficulty": "BLQ"
+    },
+    {
+      "message": "i dont know how to receive a refund of my money",
+      "label": "refund",
+      "intent": "get_refund",
+      "id": "B174",
+      "difficulty": "BLQ"
+    },
+    {
+      "message": "I expect a restitution of {{Refund Amount}} dollars",
+      "label": "refund",
+      "intent": "track_refund",
+      "id": "B175",
+      "difficulty": "BL"
+    },
+    {
+      "message": "where can I submit the secondary delivery address?",
+      "label": "shipping",
+      "intent": "set_up_shipping_address",
+      "id": "B176",
+      "difficulty": "BIL"
+    },
+    {
+      "message": "how do I get in touch with customer assistance?",
+      "label": "contact",
+      "intent": "contact_customer_service",
+      "id": "B177",
+      "difficulty": "BIL"
+    },
+    {
+      "message": "ohw do I check how soon can I expect the item?",
+      "label": "delivery",
+      "intent": "delivery_period",
+      "id": "B178",
+      "difficulty": "BIZ"
+    },
+    {
+      "message": "I need to contact customer assistance, how to do it?",
+      "label": "contact",
+      "intent": "contact_customer_service",
+      "id": "B179",
+      "difficulty": "BCIL"
+    },
+    {
+      "message": "is it possible to list your payment options?",
+      "label": "payment",
+      "intent": "check_payment_methods",
+      "id": "B180",
+      "difficulty": "BIL"
+    },
+    {
+      "message": "need help to see the status of my refund",
+      "label": "refund",
+      "intent": "track_refund",
+      "id": "B181",
+      "difficulty": "BLQ"
+    },
+    {
+      "message": "I'm not happy wirh ur services file a complaint",
+      "label": "feedback",
+      "intent": "complaint",
+      "id": "B182",
+      "difficulty": "BCEQZ"
+    },
+    {
+      "message": "i have to check when my item is gonnaarrive help me",
+      "label": "delivery",
+      "intent": "delivery_period",
+      "id": "B183",
+      "difficulty": "BCQZ"
+    },
+    {
+      "message": "what do I have to do to see the cancellation charges?",
+      "label": "cancel",
+      "intent": "check_cancellation_fee",
+      "id": "B184",
+      "difficulty": "BILM"
+    },
+    {
+      "message": "help me seeing what delivery methods I can choose",
+      "label": "delivery",
+      "intent": "delivery_options",
+      "id": "B185",
+      "difficulty": "BLM"
+    },
+    {
+      "message": "I do not know what I have to do to cancel my {{Account Type}} account",
+      "label": "account",
+      "intent": "delete_account",
+      "id": "B186",
+      "difficulty": "BEL"
+    },
+    {
+      "message": "asxsistance receiving your newsletter",
+      "label": "subscription",
+      "intent": "newsletter_subscription",
+      "id": "B187",
+      "difficulty": "BLZ"
+    },
+    {
+      "message": "changing info on premium account",
+      "label": "account",
+      "intent": "edit_account",
+      "id": "B188",
+      "difficulty": "BKLQ"
+    },
+    {
+      "message": "I don't kow how to see the withdrawal penalty",
+      "label": "cancel",
+      "intent": "check_cancellation_fee",
+      "id": "B189",
+      "difficulty": "BLZ"
+    },
+    {
+      "message": "how do I check my bill from {{Person Name}}?",
+      "label": "invoice",
+      "intent": "check_invoice",
+      "id": "B190",
+      "difficulty": "BIL"
+    },
+    {
+      "message": "I need to get in touch with customer support",
+      "label": "contact",
+      "intent": "contact_customer_service",
+      "id": "B191",
+      "difficulty": "BL"
+    },
+    {
+      "message": "i call to get my bill #12588",
+      "label": "invoice",
+      "intent": "get_invoice",
+      "id": "B192",
+      "difficulty": "BLQ"
+    },
+    {
+      "message": "i want assistance to see the eta of order {{Order Number}}",
+      "label": "order",
+      "intent": "track_order",
+      "id": "B193",
+      "difficulty": "BLQ"
+    },
+    {
+      "message": "I want help to lodge a consumer complaint",
+      "label": "feedback",
+      "intent": "complaint",
+      "id": "B194",
+      "difficulty": "BL"
+    },
+    {
+      "message": "I want to subscribe to your company newsletter",
+      "label": "subscription",
+      "intent": "newsletter_subscription",
+      "id": "B195",
+      "difficulty": "B"
+    },
+    {
+      "message": "I want assistance receiving your company newsletter",
+      "label": "subscription",
+      "intent": "newsletter_subscription",
+      "id": "B196",
+      "difficulty": "BL"
+    },
+    {
+      "message": "want assistance speaking with a person",
+      "label": "contact",
+      "intent": "contact_human_agent",
+      "id": "B197",
+      "difficulty": "BLQ"
+    },
+    {
+      "message": "I do not know what to do to check the cancellation charges",
+      "label": "cancel",
+      "intent": "check_cancellation_fee",
+      "id": "B198",
+      "difficulty": "BELM"
+    },
+    {
+      "message": "i dont know what to do to close my {{Account Category}} account",
+      "label": "account",
+      "intent": "delete_account",
+      "id": "B199",
+      "difficulty": "BLQ"
+    },
+    {
+      "message": "can ya help me to solve a payment problem",
+      "label": "payment",
+      "intent": "payment_issue",
+      "id": "B200",
+      "difficulty": "BILQ"
+    },
+    {
+      "message": "need help to see when my parcel is gonna arrive",
+      "label": "delivery",
+      "intent": "delivery_period",
+      "id": "B201",
+      "difficulty": "BLQ"
+    },
+    {
+      "message": "what payment options do you accept?",
+      "label": "payment",
+      "intent": "check_payment_methods",
+      "id": "B202",
+      "difficulty": "BIL"
+    },
+    {
+      "message": "I do not know how I can see my invoices from {{Person Name}}",
+      "label": "invoice",
+      "intent": "check_invoice",
+      "id": "B203",
+      "difficulty": "BELM"
+    },
+    {
+      "message": "can I see how long it takes for my article to arrive?",
+      "label": "delivery",
+      "intent": "delivery_period",
+      "id": "B204",
+      "difficulty": "BIL"
+    },
+    {
+      "message": "I need to see the payment options, can you help me?",
+      "label": "payment",
+      "intent": "check_payment_methods",
+      "id": "B205",
+      "difficulty": "BCIL"
+    },
+    {
+      "message": "help seeing the early termination fees",
+      "label": "cancel",
+      "intent": "check_cancellation_fee",
+      "id": "B206",
+      "difficulty": "BLM"
+    },
+    {
+      "message": "can uhelp me subscribe to ur newsletter",
+      "label": "subscription",
+      "intent": "newsletter_subscription",
+      "id": "B207",
+      "difficulty": "BILQ"
+    },
+    {
+      "message": "I cannot speak with an assistant",
+      "label": "contact",
+      "intent": "contact_human_agent",
+      "id": "B208",
+      "difficulty": "BEL"
+    },
+    {
+      "message": "report issue with payment",
+      "label": "payment",
+      "intent": "payment_issue",
+      "id": "B209",
+      "difficulty": "BK"
+    },
+    {
+      "message": "help unsubscribing from your newsletter",
+      "label": "subscription",
+      "intent": "newsletter_subscription",
+      "id": "B210",
+      "difficulty": "BL"
+    },
+    {
+      "message": "I czn't find the early termination penalties",
+      "label": "cancel",
+      "intent": "check_cancellation_fee",
+      "id": "B211",
+      "difficulty": "BLMZ"
+    },
+    {
+      "message": "is it possible to see the early exit fees?",
+      "label": "cancel",
+      "intent": "check_cancellation_fee",
+      "id": "B212",
+      "difficulty": "BILM"
+    },
+    {
+      "message": "help me canceling my newsletter subscription",
+      "label": "subscription",
+      "intent": "newsletter_subscription",
+      "id": "B213",
+      "difficulty": "BL"
+    },
+    {
+      "message": "need assistance seeing ur accepted payment methods",
+      "label": "payment",
+      "intent": "check_payment_methods",
+      "id": "B214",
+      "difficulty": "BLQ"
+    },
+    {
+      "message": "anybody available in customer support",
+      "label": "contact",
+      "intent": "contact_customer_service",
+      "id": "B215",
+      "difficulty": "BL"
+    },
+    {
+      "message": "i have got to see trhe withdrawal charge can i get some help",
+      "label": "cancel",
+      "intent": "check_cancellation_fee",
+      "id": "B216",
+      "difficulty": "BCILQZ"
+    },
+    {
+      "message": "can ya help me check the early termination penalty",
+      "label": "cancel",
+      "intent": "check_cancellation_fee",
+      "id": "B217",
+      "difficulty": "BILQ"
+    },
+    {
+      "message": "I want help to lodge a claim against your company",
+      "label": "feedback",
+      "intent": "complaint",
+      "id": "B218",
+      "difficulty": "BL"
+    },
+    {
+      "message": "I have got to notify of troubles with payments",
+      "label": "payment",
+      "intent": "payment_issue",
+      "id": "B219",
+      "difficulty": "BLM"
+    },
+    {
+      "message": "i want help filing a damn customer claim against ur business",
+      "label": "feedback",
+      "intent": "complaint",
+      "id": "B220",
+      "difficulty": "BLQW"
+    },
+    {
+      "message": "I need to see my goddamn invoices from last year",
+      "label": "invoice",
+      "intent": "check_invoice",
+      "id": "B221",
+      "difficulty": "BLMW"
+    },
+    {
+      "message": "I have got to look for bill #00108, how do I do it?",
+      "label": "invoice",
+      "intent": "check_invoice",
+      "id": "B222",
+      "difficulty": "BCIL"
+    },
+    {
+      "message": "where to report probles with online payment",
+      "label": "payment",
+      "intent": "payment_issue",
+      "id": "B223",
+      "difficulty": "BILMQZ"
+    },
+    {
+      "message": "I don't want to chat with a bot, transfer to me someone",
+      "label": "contact",
+      "intent": "contact_human_agent",
+      "id": "B224",
+      "difficulty": "BCL"
+    },
+    {
+      "message": "order  {{Order Number}} status",
+      "label": "order",
+      "intent": "track_order",
+      "id": "B225",
+      "difficulty": "BKZ"
+    },
+    {
+      "message": "where do I retrieve the access key of my user?",
+      "label": "account",
+      "intent": "recover_password",
+      "id": "B226",
+      "difficulty": "BIL"
+    },
+    {
+      "message": "help me see the termination charge",
+      "label": "cancel",
+      "intent": "check_cancellation_fee",
+      "id": "B227",
+      "difficulty": "BL"
+    },
+    {
+      "message": "how can i check the current status of my restitution",
+      "label": "refund",
+      "intent": "track_refund",
+      "id": "B228",
+      "difficulty": "BILQ"
+    },
+    {
+      "message": "i need assistance to cancel order {{Order Number}}",
+      "label": "order",
+      "intent": "cancel_order",
+      "id": "B229",
+      "difficulty": "BQ"
+    },
+    {
+      "message": "i dont know what to do to see when mt order is gonna arrive",
+      "label": "delivery",
+      "intent": "delivery_period",
+      "id": "B230",
+      "difficulty": "BLQZ"
+    },
+    {
+      "message": "can ya help me to see what payment options ya accept",
+      "label": "payment",
+      "intent": "check_payment_methods",
+      "id": "B231",
+      "difficulty": "BILQ"
+    },
+    {
+      "message": "where could I submit the shipping address?",
+      "label": "shipping",
+      "intent": "set_up_shipping_address",
+      "id": "B232",
+      "difficulty": "BILP"
+    },
+    {
+      "message": "I have got to see the bills from {{Person Name}}, help me",
+      "label": "invoice",
+      "intent": "check_invoice",
+      "id": "B233",
+      "difficulty": "BCLM"
+    },
+    {
+      "message": "updating order {{Order Number}}",
+      "label": "order",
+      "intent": "change_order",
+      "id": "B234",
+      "difficulty": "BL"
+    },
+    {
+      "message": "want assistance to see how long refunds usually take",
+      "label": "refund",
+      "intent": "check_refund_policy",
+      "id": "B235",
+      "difficulty": "BLQ"
+    },
+    {
+      "message": "need assistance to speak with somebody",
+      "label": "contact",
+      "intent": "contact_human_agent",
+      "id": "B236",
+      "difficulty": "BLQ"
+    },
+    {
+      "message": "need assistance to create a standard account for my fiance",
+      "label": "account",
+      "intent": "create_account",
+      "id": "B237",
+      "difficulty": "BLQ"
+    },
+    {
+      "message": "I am trying to find the shipping methods, I need help",
+      "label": "delivery",
+      "intent": "delivery_options",
+      "id": "B238",
+      "difficulty": "BCEL"
+    },
+    {
+      "message": "I need help seeing my invoices from {{Person Name}}",
+      "label": "invoice",
+      "intent": "check_invoice",
+      "id": "B239",
+      "difficulty": "BLM"
+    },
+    {
+      "message": "new standard account for wife",
+      "label": "account",
+      "intent": "create_account",
+      "id": "B240",
+      "difficulty": "BKL"
+    },
+    {
+      "message": "help me set up the delivery address",
+      "label": "shipping",
+      "intent": "set_up_shipping_address",
+      "id": "B241",
+      "difficulty": "BL"
+    },
+    {
+      "message": "can you help me notify of an error with payments?",
+      "label": "payment",
+      "intent": "payment_issue",
+      "id": "B242",
+      "difficulty": "BILM"
+    },
+    {
+      "message": "get ibll #00108",
+      "label": "invoice",
+      "intent": "get_invoice",
+      "id": "B243",
+      "difficulty": "BKLZ"
+    },
+    {
+      "message": "can you show me the status of order {{Order Number}}?",
+      "label": "order",
+      "intent": "track_order",
+      "id": "B244",
+      "difficulty": "BI"
+    },
+    {
+      "message": "cancel subscription to ur newsletter",
+      "label": "subscription",
+      "intent": "newsletter_subscription",
+      "id": "B245",
+      "difficulty": "BKLQ"
+    },
+    {
+      "message": "I need help with cancelling purchase {{Order Number}}",
+      "label": "order",
+      "intent": "cancel_order",
+      "id": "B246",
+      "difficulty": "BL"
+    },
+    {
+      "message": "help me make a claim against ur company",
+      "label": "feedback",
+      "intent": "complaint",
+      "id": "B247",
+      "difficulty": "BLQ"
+    },
+    {
+      "message": "I don't kno how I can get my invoice #85632",
+      "label": "invoice",
+      "intent": "get_invoice",
+      "id": "B248",
+      "difficulty": "BZ"
+    },
+    {
+      "message": "I need assistance seeing the damn early exit charges",
+      "label": "cancel",
+      "intent": "check_cancellation_fee",
+      "id": "B249",
+      "difficulty": "BLMW"
+    },
+    {
+      "message": "I want assistance getting the bill from {{Person Name}}",
+      "label": "invoice",
+      "intent": "get_invoice",
+      "id": "B250",
+      "difficulty": "BL"
+    },
+    {
+      "message": "need assistance to speak to customer servkce",
+      "label": "contact",
+      "intent": "contact_customer_service",
+      "id": "B251",
+      "difficulty": "BLQZ"
+    },
+    {
+      "message": "assistance to use the premium profile",
+      "label": "account",
+      "intent": "switch_account",
+      "id": "B252",
+      "difficulty": "BL"
+    },
+    {
+      "message": "I need help with cancellng order {{Order Number}}",
+      "label": "order",
+      "intent": "cancel_order",
+      "id": "B253",
+      "difficulty": "BZ"
+    },
+    {
+      "message": "I don't know what I have to do to look for invoice #00108",
+      "label": "invoice",
+      "intent": "check_invoice",
+      "id": "B254",
+      "difficulty": "BL"
+    },
+    {
+      "message": "want assistance deleting some items from order {{Order Number}}",
+      "label": "order",
+      "intent": "change_order",
+      "id": "B255",
+      "difficulty": "BLMQ"
+    },
+    {
+      "message": "I do not know how to update my shipping address",
+      "label": "shipping",
+      "intent": "change_shipping_address",
+      "id": "B256",
+      "difficulty": "BEL"
+    },
+    {
+      "message": "I am trying to make a fucking consumer complaint",
+      "label": "feedback",
+      "intent": "complaint",
+      "id": "B257",
+      "difficulty": "BLW"
+    },
+    {
+      "message": "i dont know what i need to do to see the withdrawal fee",
+      "label": "cancel",
+      "intent": "check_cancellation_fee",
+      "id": "B258",
+      "difficulty": "BLQ"
+    },
+    {
+      "message": "can I order from {{Delivery City}}?",
+      "label": "delivery",
+      "intent": "delivery_options",
+      "id": "B259",
+      "difficulty": "BIS"
+    },
+    {
+      "message": "I am trying to see in what situations can I request refunds",
+      "label": "refund",
+      "intent": "check_refund_policy",
+      "id": "B260",
+      "difficulty": "BL"
+    },
+    {
+      "message": "could you help me to cancel purchase {{Order Number}}?",
+      "label": "order",
+      "intent": "cancel_order",
+      "id": "B261",
+      "difficulty": "BILP"
+    },
+    {
+      "message": "I have got to contact customer assistance",
+      "label": "contact",
+      "intent": "contact_customer_service",
+      "id": "B262",
+      "difficulty": "BL"
+    },
+    {
+      "message": "i want assitsance to check ur allowed payment modalities",
+      "label": "payment",
+      "intent": "check_payment_methods",
+      "id": "B263",
+      "difficulty": "BLQZ"
+    },
+    {
+      "message": "I need assistance to restore the password of my profile",
+      "label": "account",
+      "intent": "recover_password",
+      "id": "B264",
+      "difficulty": "BL"
+    },
+    {
+      "message": "I need assistance trying to modify my delivery address",
+      "label": "shipping",
+      "intent": "change_shipping_address",
+      "id": "B265",
+      "difficulty": "BL"
+    },
+    {
+      "message": "I cannot receive the corporate newsletter",
+      "label": "subscription",
+      "intent": "newsletter_subscription",
+      "id": "B266",
+      "difficulty": "BEL"
+    },
+    {
+      "message": "assistance seeing how soon can i expect the shipment",
+      "label": "delivery",
+      "intent": "delivery_period",
+      "id": "B267",
+      "difficulty": "BLQ"
+    },
+    {
+      "message": "want help to file a customer reclamation against ur business",
+      "label": "feedback",
+      "intent": "complaint",
+      "id": "B268",
+      "difficulty": "BLQ"
+    },
+    {
+      "message": "i need assistance making a claim against ur company",
+      "label": "feedback",
+      "intent": "complaint",
+      "id": "B269",
+      "difficulty": "BLQ"
+    },
+    {
+      "message": "where to change the address",
+      "label": "shipping",
+      "intent": "change_shipping_address",
+      "id": "B270",
+      "difficulty": "BILQ"
+    },
+    {
+      "message": "what do I need to do to file a consumer claim?",
+      "label": "feedback",
+      "intent": "complaint",
+      "id": "B271",
+      "difficulty": "BIL"
+    },
+    {
+      "message": "i want supports changing myaddress",
+      "label": "shipping",
+      "intent": "change_shipping_address",
+      "id": "B272",
+      "difficulty": "BLMQZ"
+    },
+    {
+      "message": "i try to check what shipment methods are there",
+      "label": "delivery",
+      "intent": "delivery_options",
+      "id": "B273",
+      "difficulty": "BLMQ"
+    },
+    {
+      "message": "i want help writing a comment for a serrvice",
+      "label": "feedback",
+      "intent": "review",
+      "id": "B274",
+      "difficulty": "BLQZ"
+    },
+    {
+      "message": "I need assistance seeing the early termination penalties",
+      "label": "cancel",
+      "intent": "check_cancellation_fee",
+      "id": "B275",
+      "difficulty": "BLM"
+    }
+  ]
+}

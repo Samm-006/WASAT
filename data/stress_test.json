@@ -1,0 +1,185 @@
+{
+  "description": "30 synthetic customer-support messages written with AI assistance to imitate messy real customers (typos, slang, new phrasing). Not from the Bitext dataset and never used for training. Each was labelled by hand with the correct Bitext category.",
+  "items": [
+    {
+      "id": "S01",
+      "message": "cant get into my profile, forgot the pw",
+      "label": "account",
+      "difficulty": "stress"
+    },
+    {
+      "id": "S02",
+      "message": "how do i make a new acount on ur site",
+      "label": "account",
+      "difficulty": "stress"
+    },
+    {
+      "id": "S03",
+      "message": "pls remove my profile and all my data",
+      "label": "account",
+      "difficulty": "stress"
+    },
+    {
+      "id": "S04",
+      "message": "is there a penalty if i back out of my purchase",
+      "label": "cancel",
+      "difficulty": "stress"
+    },
+    {
+      "id": "S05",
+      "message": "how much do u charge if i cancel",
+      "label": "cancel",
+      "difficulty": "stress"
+    },
+    {
+      "id": "S06",
+      "message": "is there an actual human i can talk to",
+      "label": "contact",
+      "difficulty": "stress"
+    },
+    {
+      "id": "S07",
+      "message": "whats ur customer service phone number",
+      "label": "contact",
+      "difficulty": "stress"
+    },
+    {
+      "id": "S08",
+      "message": "need to speak to someone NOW this is urgent",
+      "label": "contact",
+      "difficulty": "stress"
+    },
+    {
+      "id": "S09",
+      "message": "when will my stuff arrive",
+      "label": "delivery",
+      "difficulty": "stress"
+    },
+    {
+      "id": "S10",
+      "message": "do you deliver on weekends",
+      "label": "delivery",
+      "difficulty": "stress"
+    },
+    {
+      "id": "S11",
+      "message": "what delivery speeds can i choose from",
+      "label": "delivery",
+      "difficulty": "stress"
+    },
+    {
+      "id": "S12",
+      "message": "your service was awful and i want to complain",
+      "label": "feedback",
+      "difficulty": "stress"
+    },
+    {
+      "id": "S13",
+      "message": "where can i write a review about you",
+      "label": "feedback",
+      "difficulty": "stress"
+    },
+    {
+      "id": "S14",
+      "message": "honestly great experience, wanted to share some feedback",
+      "label": "feedback",
+      "difficulty": "stress"
+    },
+    {
+      "id": "S15",
+      "message": "need a receipt for my company expenses",
+      "label": "invoice",
+      "difficulty": "stress"
+    },
+    {
+      "id": "S16",
+      "message": "where do i find the bill for last month",
+      "label": "invoice",
+      "difficulty": "stress"
+    },
+    {
+      "id": "S17",
+      "message": "where is my package, order 5521",
+      "label": "order",
+      "difficulty": "stress"
+    },
+    {
+      "id": "S18",
+      "message": "i want to add another item to my order",
+      "label": "order",
+      "difficulty": "stress"
+    },
+    {
+      "id": "S19",
+      "message": "stop my order please, i changed my mind",
+      "label": "order",
+      "difficulty": "stress"
+    },
+    {
+      "id": "S20",
+      "message": "my card keeps getting rejected",
+      "label": "payment",
+      "difficulty": "stress"
+    },
+    {
+      "id": "S21",
+      "message": "can i pay with apple pay",
+      "label": "payment",
+      "difficulty": "stress"
+    },
+    {
+      "id": "S22",
+      "message": "the payment didnt go through, what now",
+      "label": "payment",
+      "difficulty": "stress"
+    },
+    {
+      "id": "S23",
+      "message": "i sent it back two weeks ago, where is my money",
+      "label": "refund",
+      "difficulty": "stress"
+    },
+    {
+      "id": "S24",
+      "message": "can i get my money back",
+      "label": "refund",
+      "difficulty": "stress"
+    },
+    {
+      "id": "S25",
+      "message": "how long until the refund shows up on my card",
+      "label": "refund",
+      "difficulty": "stress"
+    },
+    {
+      "id": "S26",
+      "message": "i moved, need to update where you send my stuff",
+      "label": "shipping",
+      "difficulty": "stress"
+    },
+    {
+      "id": "S27",
+      "message": "wrong address on my profile for deliveries, need to fix it",
+      "label": "shipping",
+      "difficulty": "stress"
+    },
+    {
+      "id": "S28",
+      "message": "stop sending me promo emails",
+      "label": "subscription",
+      "difficulty": "stress"
+    },
+    {
+      "id": "S29",
+      "message": "sign me up for your newsletter",
+      "label": "subscription",
+      "difficulty": "stress"
+    },
+    {
+      "id": "S30",
+      "message": "how do i unsubscribe from the mailing list",
+      "label": "subscription",
+      "difficulty": "stress"
+    }
+  ]
+}

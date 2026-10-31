@@ -1,0 +1,765 @@
+{
+  "run_at": "2026-10-31T00:37:52.490407+00:00",
+  "ablation": {
+    "AI-first (large model, full prompt)": {
+      "n": 275,
+      "accuracy": 0.9564,
+      "ai_calls": 275,
+      "ai_share": 1.0,
+      "tokens": 92244,
+      "cost_usd": 0.0193343,
+      "avg_latency_s": 3.57
+    },
+    "Small model only": {
+      "n": 275,
+      "accuracy": 0.88,
+      "ai_calls": 275,
+      "ai_share": 1.0,
+      "tokens": 45417,
+      "cost_usd": 0.00289428,
+      "avg_latency_s": 1.837
+    },
+    "Python model only (no AI)": {
+      "n": 275,
+      "accuracy": 1.0,
+      "ai_calls": 0,
+      "ai_share": 0.0,
+      "tokens": 0,
+      "cost_usd": 0,
+      "avg_latency_s": 0.0
+    },
+    "Python + small model (no large)": {
+      "n": 275,
+      "accuracy": 0.9927,
+      "ai_calls": 9,
+      "ai_share": 0.0327,
+      "tokens": 1571,
+      "cost_usd": 9.679e-05,
+      "avg_latency_s": 0.03
+    },
+    "WASAT without disagreement check": {
+      "n": 275,
+      "accuracy": 0.9927,
+      "ai_calls": 9,
+      "ai_share": 0.0327,
+      "tokens": 1571,
+      "cost_usd": 9.679e-05,
+      "avg_latency_s": 0.03
+    },
+    "WASAT without money check": {
+      "n": 275,
+      "accuracy": 0.9927,
+      "ai_calls": 9,
+      "ai_share": 0.0255,
+      "tokens": 1550,
+      "cost_usd": 0.00012785,
+      "avg_latency_s": 0.031
+    },
+    "WASAT (Python + small + large)": {
+      "n": 275,
+      "accuracy": 0.9927,
+      "ai_calls": 11,
+      "ai_share": 0.0327,
+      "tokens": 1904,
+      "cost_usd": 0.00014967,
+      "avg_latency_s": 0.039
+    }
+  },
+  "tradeoff": [
+    {
+      "threshold": 0.5,
+      "n": 275,
+      "accuracy": 0.9964,
+      "ai_calls": 7,
+      "ai_share": 0.0218,
+      "tokens": 1204,
+      "cost_usd": 8.185e-05,
+      "avg_latency_s": 0.023
+    },
+    {
+      "threshold": 0.6,
+      "n": 275,
+      "accuracy": 0.9927,
+      "ai_calls": 9,
+      "ai_share": 0.0255,
+      "tokens": 1546,
+      "cost_usd": 0.00012765,
+      "avg_latency_s": 0.031
+    },
+    {
+      "threshold": 0.7,
+      "n": 275,
+      "accuracy": 0.9927,
+      "ai_calls": 10,
+      "ai_share": 0.0291,
+      "tokens": 1716,
+      "cost_usd": 0.00013811,
+      "avg_latency_s": 0.035
+    },
+    {
+      "threshold": 0.8,
+      "n": 275,
+      "accuracy": 0.9927,
+      "ai_calls": 11,
+      "ai_share": 0.0327,
+      "tokens": 1904,
+      "cost_usd": 0.00014967,
+      "avg_latency_s": 0.038
+    },
+    {
+      "threshold": 0.9,
+      "n": 275,
+      "accuracy": 0.9927,
+      "ai_calls": 18,
+      "ai_share": 0.0545,
+      "tokens": 3142,
+      "cost_usd": 0.0002334,
+      "avg_latency_s": 0.066
+    },
+    {
+      "threshold": 0.95,
+      "n": 275,
+      "accuracy": 0.9891,
+      "ai_calls": 36,
+      "ai_share": 0.1091,
+      "tokens": 6273,
+      "cost_usd": 0.00044846,
+      "avg_latency_s": 0.153
+    },
+    {
+      "threshold": 0.99,
+      "n": 275,
+      "accuracy": 0.9782,
+      "ai_calls": 133,
+      "ai_share": 0.4182,
+      "tokens": 23268,
+      "cost_usd": 0.00163291,
+      "avg_latency_s": 1.263
+    }
+  ],
+  "styles": {
+    "basic syntax (B)": {
+      "wasat": {
+        "n": 275,
+        "accuracy": 0.9927,
+        "ai_calls": 11,
+        "ai_share": 0.0327,
+        "tokens": 1904,
+        "cost_usd": 0.00014967,
+        "avg_latency_s": 0.039
+      },
+      "ai_first": {
+        "n": 275,
+        "accuracy": 0.9564,
+        "ai_calls": 275,
+        "ai_share": 1.0,
+        "tokens": 92244,
+        "cost_usd": 0.0193343,
+        "avg_latency_s": 3.57
+      }
+    },
+    "question form (I)": {
+      "wasat": {
+        "n": 83,
+        "accuracy": 0.9759,
+        "ai_calls": 7,
+        "ai_share": 0.0602,
+        "tokens": 1213,
+        "cost_usd": 0.00010708,
+        "avg_latency_s": 0.079
+      },
+      "ai_first": {
+        "n": 83,
+        "accuracy": 0.9639,
+        "ai_calls": 83,
+        "ai_share": 1.0,
+        "tokens": 27748,
+        "cost_usd": 0.00580762,
+        "avg_latency_s": 2.986
+      }
+    },
+    "coordinated (C)": {
+      "wasat": {
+        "n": 27,
+        "accuracy": 0.963,
+        "ai_calls": 3,
+        "ai_share": 0.0741,
+        "tokens": 539,
+        "cost_usd": 4.076e-05,
+        "avg_latency_s": 0.096
+      },
+      "ai_first": {
+        "n": 27,
+        "accuracy": 0.963,
+        "ai_calls": 27,
+        "ai_share": 1.0,
+        "tokens": 9153,
+        "cost_usd": 0.00182355,
+        "avg_latency_s": 3.538
+      }
+    },
+    "lexical variation (L)": {
+      "wasat": {
+        "n": 250,
+        "accuracy": 0.992,
+        "ai_calls": 11,
+        "ai_share": 0.036,
+        "tokens": 1904,
+        "cost_usd": 0.00014967,
+        "avg_latency_s": 0.042
+      },
+      "ai_first": {
+        "n": 250,
+        "accuracy": 0.964,
+        "ai_calls": 250,
+        "ai_share": 1.0,
+        "tokens": 83934,
+        "cost_usd": 0.01790976,
+        "avg_latency_s": 3.612
+      }
+    },
+    "morphological variation (M)": {
+      "wasat": {
+        "n": 57,
+        "accuracy": 1.0,
+        "ai_calls": 2,
+        "ai_share": 0.0351,
+        "tokens": 333,
+        "cost_usd": 2.057e-05,
+        "avg_latency_s": 0.034
+      },
+      "ai_first": {
+        "n": 57,
+        "accuracy": 0.9474,
+        "ai_calls": 57,
+        "ai_share": 1.0,
+        "tokens": 18962,
+        "cost_usd": 0.00365913,
+        "avg_latency_s": 3.857
+      }
+    },
+    "polite (P)": {
+      "wasat": {
+        "n": 13,
+        "accuracy": 1.0,
+        "ai_calls": 1,
+        "ai_share": 0.0769,
+        "tokens": 168,
+        "cost_usd": 1.036e-05,
+        "avg_latency_s": 0.092
+      },
+      "ai_first": {
+        "n": 13,
+        "accuracy": 1.0,
+        "ai_calls": 13,
+        "ai_share": 1.0,
+        "tokens": 4366,
+        "cost_usd": 0.00090988,
+        "avg_latency_s": 3.174
+      }
+    },
+    "colloquial (Q)": {
+      "wasat": {
+        "n": 97,
+        "accuracy": 0.9794,
+        "ai_calls": 7,
+        "ai_share": 0.0515,
+        "tokens": 1214,
+        "cost_usd": 0.00010713,
+        "avg_latency_s": 0.069
+      },
+      "ai_first": {
+        "n": 97,
+        "accuracy": 0.9278,
+        "ai_calls": 97,
+        "ai_share": 1.0,
+        "tokens": 32642,
+        "cost_usd": 0.00723483,
+        "avg_latency_s": 3.493
+      }
+    },
+    "offensive (W)": {
+      "wasat": {
+        "n": 14,
+        "accuracy": 0.9286,
+        "ai_calls": 2,
+        "ai_share": 0.0714,
+        "tokens": 342,
+        "cost_usd": 4.58e-05,
+        "avg_latency_s": 0.151
+      },
+      "ai_first": {
+        "n": 14,
+        "accuracy": 1.0,
+        "ai_calls": 14,
+        "ai_share": 1.0,
+        "tokens": 4722,
+        "cost_usd": 0.00100424,
+        "avg_latency_s": 3.422
+      }
+    },
+    "keyword-only (K)": {
+      "wasat": {
+        "n": 20,
+        "accuracy": 1.0,
+        "ai_calls": 0,
+        "ai_share": 0.0,
+        "tokens": 0,
+        "cost_usd": 0,
+        "avg_latency_s": 0.0
+      },
+      "ai_first": {
+        "n": 20,
+        "accuracy": 0.95,
+        "ai_calls": 20,
+        "ai_share": 1.0,
+        "tokens": 6601,
+        "cost_usd": 0.0014006,
+        "avg_latency_s": 4.185
+      }
+    },
+    "abbreviations (E)": {
+      "wasat": {
+        "n": 16,
+        "accuracy": 1.0,
+        "ai_calls": 1,
+        "ai_share": 0.0625,
+        "tokens": 188,
+        "cost_usd": 1.156e-05,
+        "avg_latency_s": 0.054
+      },
+      "ai_first": {
+        "n": 16,
+        "accuracy": 0.9375,
+        "ai_calls": 16,
+        "ai_share": 1.0,
+        "tokens": 5420,
+        "cost_usd": 0.00116705,
+        "avg_latency_s": 3.349
+      }
+    },
+    "errors and typos (Z)": {
+      "wasat": {
+        "n": 50,
+        "accuracy": 0.96,
+        "ai_calls": 8,
+        "ai_share": 0.12,
+        "tokens": 1384,
+        "cost_usd": 0.00011759,
+        "avg_latency_s": 0.154
+      },
+      "ai_first": {
+        "n": 50,
+        "accuracy": 0.96,
+        "ai_calls": 50,
+        "ai_share": 1.0,
+        "tokens": 16732,
+        "cost_usd": 0.00330382,
+        "avg_latency_s": 3.815
+      }
+    }
+  },
+  "stress": {
+    "AI-first": {
+      "n": 30,
+      "accuracy": 0.9667,
+      "ai_calls": 30,
+      "ai_share": 1.0,
+      "tokens": 10075,
+      "cost_usd": 0.00264562,
+      "avg_latency_s": 6.85
+    },
+    "Python model only": {
+      "n": 30,
+      "accuracy": 0.7667,
+      "ai_calls": 0,
+      "ai_share": 0.0,
+      "tokens": 0,
+      "cost_usd": 0,
+      "avg_latency_s": 0.0
+    },
+    "WASAT": {
+      "n": 30,
+      "accuracy": 0.9667,
+      "ai_calls": 23,
+      "ai_share": 0.5667,
+      "tokens": 3925,
+      "cost_usd": 0.0003096,
+      "avg_latency_s": 3.548
+    }
+  },
+  "stress_rows": [
+    {
+      "id": "S01",
+      "label": "account",
+      "flags": "stress",
+      "category": "account",
+      "level": "python",
+      "ai_calls": 0,
+      "tokens": 0,
+      "cost": 0,
+      "latency": 0.0
+    },
+    {
+      "id": "S02",
+      "label": "account",
+      "flags": "stress",
+      "category": "account",
+      "level": "small",
+      "ai_calls": 1,
+      "tokens": 170,
+      "cost": 1.046e-05,
+      "latency": 1.167
+    },
+    {
+      "id": "S03",
+      "label": "account",
+      "flags": "stress",
+      "category": "account",
+      "level": "python",
+      "ai_calls": 0,
+      "tokens": 0,
+      "cost": 0,
+      "latency": 0.0
+    },
+    {
+      "id": "S04",
+      "label": "cancel",
+      "flags": "stress",
+      "category": "cancel",
+      "level": "large",
+      "ai_calls": 2,
+      "tokens": 326,
+      "cost": 2.76e-05,
+      "latency": 9.291
+    },
+    {
+      "id": "S05",
+      "label": "cancel",
+      "flags": "stress",
+      "category": "cancel",
+      "level": "small",
+      "ai_calls": 1,
+      "tokens": 186,
+      "cost": 1.14561e-05,
+      "latency": 45.975
+    },
+    {
+      "id": "S06",
+      "label": "contact",
+      "flags": "stress",
+      "category": "contact",
+      "level": "python",
+      "ai_calls": 0,
+      "tokens": 0,
+      "cost": 0,
+      "latency": 0.0
+    },
+    {
+      "id": "S07",
+      "label": "contact",
+      "flags": "stress",
+      "category": "contact",
+      "level": "python",
+      "ai_calls": 0,
+      "tokens": 0,
+      "cost": 0,
+      "latency": 0.0
+    },
+    {
+      "id": "S08",
+      "label": "contact",
+      "flags": "stress",
+      "category": "contact",
+      "level": "python",
+      "ai_calls": 0,
+      "tokens": 0,
+      "cost": 0,
+      "latency": 0.0
+    },
+    {
+      "id": "S09",
+      "label": "delivery",
+      "flags": "stress",
+      "category": "delivery",
+      "level": "python",
+      "ai_calls": 0,
+      "tokens": 0,
+      "cost": 0,
+      "latency": 0.0
+    },
+    {
+      "id": "S10",
+      "label": "delivery",
+      "flags": "stress",
+      "category": "delivery",
+      "level": "large",
+      "ai_calls": 2,
+      "tokens": 353,
+      "cost": 4.59434e-05,
+      "latency": 8.254
+    },
+    {
+      "id": "S11",
+      "label": "delivery",
+      "flags": "stress",
+      "category": "delivery",
+      "level": "python",
+      "ai_calls": 0,
+      "tokens": 0,
+      "cost": 0,
+      "latency": 0.0
+    },
+    {
+      "id": "S12",
+      "label": "feedback",
+      "flags": "stress",
+      "category": "feedback",
+      "level": "small",
+      "ai_calls": 1,
+      "tokens": 168,
+      "cost": 1.036e-05,
+      "latency": 1.136
+    },
+    {
+      "id": "S13",
+      "label": "feedback",
+      "flags": "stress",
+      "category": "feedback",
+      "level": "python",
+      "ai_calls": 0,
+      "tokens": 0,
+      "cost": 0,
+      "latency": 0.0
+    },
+    {
+      "id": "S14",
+      "label": "feedback",
+      "flags": "stress",
+      "category": "feedback",
+      "level": "python",
+      "ai_calls": 0,
+      "tokens": 0,
+      "cost": 0,
+      "latency": 0.0
+    },
+    {
+      "id": "S15",
+      "label": "invoice",
+      "flags": "stress",
+      "category": "invoice",
+      "level": "large",
+      "ai_calls": 2,
+      "tokens": 337,
+      "cost": 2.81452e-05,
+      "latency": 17.279
+    },
+    {
+      "id": "S16",
+      "label": "invoice",
+      "flags": "stress",
+      "category": "invoice",
+      "level": "python",
+      "ai_calls": 0,
+      "tokens": 0,
+      "cost": 0,
+      "latency": 0.0
+    },
+    {
+      "id": "S17",
+      "label": "order",
+      "flags": "stress",
+      "category": "order",
+      "level": "small",
+      "ai_calls": 1,
+      "tokens": 168,
+      "cost": 1.036e-05,
+      "latency": 0.868
+    },
+    {
+      "id": "S18",
+      "label": "order",
+      "flags": "stress",
+      "category": "order",
+      "level": "small",
+      "ai_calls": 1,
+      "tokens": 168,
+      "cost": 1.036e-05,
+      "latency": 1.415
+    },
+    {
+      "id": "S19",
+      "label": "order",
+      "flags": "stress",
+      "category": "order",
+      "level": "small",
+      "ai_calls": 1,
+      "tokens": 168,
+      "cost": 1.036e-05,
+      "latency": 0.921
+    },
+    {
+      "id": "S20",
+      "label": "payment",
+      "flags": "stress",
+      "category": "payment",
+      "level": "large",
+      "ai_calls": 2,
+      "tokens": 315,
+      "cost": 3.302e-05,
+      "latency": 2.599
+    },
+    {
+      "id": "S21",
+      "label": "payment",
+      "flags": "stress",
+      "category": "payment",
+      "level": "small",
+      "ai_calls": 1,
+      "tokens": 184,
+      "cost": 1.13543e-05,
+      "latency": 0.795
+    },
+    {
+      "id": "S22",
+      "label": "payment",
+      "flags": "stress",
+      "category": "payment",
+      "level": "python",
+      "ai_calls": 0,
+      "tokens": 0,
+      "cost": 0,
+      "latency": 0.0
+    },
+    {
+      "id": "S23",
+      "label": "refund",
+      "flags": "stress",
+      "category": "refund",
+      "level": "small",
+      "ai_calls": 1,
+      "tokens": 171,
+      "cost": 1.051e-05,
+      "latency": 0.781
+    },
+    {
+      "id": "S24",
+      "label": "refund",
+      "flags": "stress",
+      "category": "refund",
+      "level": "python",
+      "ai_calls": 0,
+      "tokens": 0,
+      "cost": 0,
+      "latency": 0.0
+    },
+    {
+      "id": "S25",
+      "label": "refund",
+      "flags": "stress",
+      "category": "refund",
+      "level": "small",
+      "ai_calls": 1,
+      "tokens": 169,
+      "cost": 1.041e-05,
+      "latency": 0.927
+    },
+    {
+      "id": "S26",
+      "label": "shipping",
+      "flags": "stress",
+      "category": "shipping",
+      "level": "large",
+      "ai_calls": 2,
+      "tokens": 345,
+      "cost": 2.8748799999999998e-05,
+      "latency": 3.558
+    },
+    {
+      "id": "S27",
+      "label": "shipping",
+      "flags": "stress",
+      "category": "shipping",
+      "level": "large",
+      "ai_calls": 2,
+      "tokens": 347,
+      "cost": 2.88997e-05,
+      "latency": 9.959
+    },
+    {
+      "id": "S28",
+      "label": "subscription",
+      "flags": "stress",
+      "category": "feedback",
+      "level": "small",
+      "ai_calls": 1,
+      "tokens": 164,
+      "cost": 1.016e-05,
+      "latency": 0.776
+    },
+    {
+      "id": "S29",
+      "label": "subscription",
+      "flags": "stress",
+      "category": "subscription",
+      "level": "python",
+      "ai_calls": 0,
+      "tokens": 0,
+      "cost": 0,
+      "latency": 0.0
+    },
+    {
+      "id": "S30",
+      "label": "subscription",
+      "flags": "stress",
+      "category": "subscription",
+      "level": "small",
+      "ai_calls": 1,
+      "tokens": 186,
+      "cost": 1.14561e-05,
+      "latency": 0.757
+    }
+  ],
+  "outage": {
+    "held_out": {
+      "AI-first": {
+        "n": 275,
+        "accuracy": 0.0,
+        "ai_calls": 275,
+        "ai_share": 1.0,
+        "tokens": 0,
+        "cost_usd": 0.0,
+        "avg_latency_s": 0.0
+      },
+      "WASAT": {
+        "n": 275,
+        "accuracy": 1.0,
+        "ai_calls": 18,
+        "ai_share": 0.0327,
+        "tokens": 0,
+        "cost_usd": 0.0,
+        "avg_latency_s": 0.0
+      }
+    },
+    "stress": {
+      "AI-first": {
+        "n": 30,
+        "accuracy": 0.0,
+        "ai_calls": 30,
+        "ai_share": 1.0,
+        "tokens": 0,
+        "cost_usd": 0.0,
+        "avg_latency_s": 0.0
+      },
+      "WASAT": {
+        "n": 30,
+        "accuracy": 0.7667,
+        "ai_calls": 34,
+        "ai_share": 0.5667,
+        "tokens": 0,
+        "cost_usd": 0.0,
+        "avg_latency_s": 0.0
+      }
+    }
+  }
+}
